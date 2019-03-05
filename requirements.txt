@@ -1,5 +1,5 @@
-environ
-dj_database_url
+django
+django-environ
 whitenoise
 geckoboard.py
 gunicorn

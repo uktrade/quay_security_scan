@@ -21,9 +21,9 @@ class CreateAndPushGeckoboardDataSet:
             'quay.security.scan.by_name',
             {
                 'repository': {'type': 'string', 'name': 'Repository:Tag'},
-                'critical': {'type': 'number', 'name': 'Critical'},
-                'high': {'type': 'number', 'name': 'High'},
-                'medium': {'type': 'number', 'name': 'Medium'}
+                'critical': {'type': 'number', 'name': 'C'},
+                'high': {'type': 'number', 'name': 'H'},
+                'medium': {'type': 'number', 'name': 'M'}
             },
             ['repository']
         )
